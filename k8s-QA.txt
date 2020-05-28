@@ -32,5 +32,16 @@ A device or used to cary out a particular Function.
  Task defination:
 A task definition is required to run Docker containers in Amazon ECS. Some of the parameters you can specify in a task definition include:
  The Docker image to use with each container in your task. How much CPU and memory to use with each task or each container within a task.
- the process
+ Master Node:Api server, shedulers,control manager,etcd
+
+every request give to api (autentication permisions)
+etcd (all the information about the master nodes and pods)
+if node avilbale contact api server after contact the sheduler launch pod and api server 
+kube-controller-manager- Its maintain and controls the desire and current state.
+node cont(if node down intimate apiservers monitor tools)
+replation cont (desirs)
+endpoints cont( if reach the pod b/w svc )
+service a/c and token cont( if storage data down secutrity perposs the services)
+kubelet- container runing or not
+kubeproxy:
 
