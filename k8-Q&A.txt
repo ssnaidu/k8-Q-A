@@ -32,5 +32,5 @@ A device or used to cary out a particular Function.
  Task defination:
 A task definition is required to run Docker containers in Amazon ECS. Some of the parameters you can specify in a task definition include:
  The Docker image to use with each container in your task. How much CPU and memory to use with each task or each container within a task.
- 
+ the process
 
