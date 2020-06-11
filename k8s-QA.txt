@@ -44,4 +44,43 @@ endpoints cont( if reach the pod b/w svc )
 service a/c and token cont( if storage data down secutrity perposs the services)
 kubelet- container runing or not
 kubeproxy:
+What is kubernetes?
+Kubernetes is container orchestration tool used to manage containers
+What is the diffrence between docker and kubernetes?
+Docker is used for building docker images and creating containers whereas kubenetes is used to manage containers
+Tell three Similar softwares like kubernetes?
+Docker swarm
+Mesos
+DC/OS
+What is the diffrence between kubernetes and docker swarm?
+Both are used for managing containers
+Docker swarm is not production ready
+Kubernetes is modular, flexibile and production ready
+What is the difference between automation and orchestration?
+Automation is used for single task
+Orchestration is used for build a workflow
+Explain kubernetes architecture
+Master
+kube-api server
+scheduler
+controler-manager
+etcd
+Node
+kubelet
+kube-proxy
+Container runtime (docker)
+Image vs Container
+Docker image is a template which contains base os and application services and data
+Docker container is a copy of docker image with resources like cpu, memory, network and storage
+Docker swarm vs docker compose?
+docker-compose deploys container on a single Docker host, Docker Swarm deploys it across multiple nodes. 
 
+Difference between bridge and overlay network
+Bridge networks can be created for single host and overlay networks can be created for multiple hosts
+
+What is the difference between container and a vm
+Applications running in a container environment share an underlying operating system, while VM systems can run different operating systems.
+What is replicaset?
+ Ensures that a specified number of pods are runing at anytime.
+ 
+ 
